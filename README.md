@@ -1,5 +1,5 @@
 # alexa-skill
-<img src="https://github.com/keptn/keptn/raw/master/assets/keptn.png" />
+<img src="https://github.com/keptn/keptn/raw/master/assets/keptn.PNG" />
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/keptn-sandbox/alexa-notification-service)
 [![Build Status](https://travis-ci.org/keptn-sandbox/alexa-notification-service.svg?branch=master)](https://travis-ci.org/keptn-sandbox/alexa-notification-service)
@@ -29,29 +29,29 @@ Once you have done this you need to enable the skill and configure accoutn linki
 
 2. Select the Keptn skill and click `ENABLE TO USE`
 
-![](./images/setup/enable.png)
+![](./images/setup/enable.PNG)
 
 3. To access your keptn credentials the skill requires account linking to Auth0, during the account linking you will provide your keptn endpoint and token. Click on `SETTINGS`
 
-![](./images/setup/settings.png)
+![](./images/setup/settings.PNG)
 
 4. Click on `Link Account`
 
-![](./images/setup/link.png)
+![](./images/setup/link.PNG)
 
 5. This will launch the connection to the keptn auth0 account which is where your keptn details will be stored. You need to sign up for this so click on `Sign Up`
 
-![](./images/setup/signup.png)
+![](./images/setup/signup.PNG)
 
 6. Input your email address \(this can be any address and doesn't have to be the same one as you alexa account\), a password, your keptn endpoint \(without http\(s\):\/\/ and training \/\) and your decoded keptn API token.
 
-![](./images/setup/details.png)
+![](./images/setup/details.PNG)
 
 Authorize the App by clicking on `Accept`
 
 7. Your skill should now be successfully setup and you can use it. Launch the skill by saying `\"Alexa launch captain seven\"`. The first time you launch it the skill needs to reach out to auth0 to get your keptn details, this is done automatically by saying `configure` but don't worry the skill will talk you through that.
 
-![](./images/setup/done.png)
+![](./images/setup/done.PNG)
 
 ## Supported Commands
 
