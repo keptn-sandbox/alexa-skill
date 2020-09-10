@@ -47,20 +47,20 @@ Once you have done this you need to enable the skill and configure accoutn linki
 
 Authorize the App by clicking on `Accept`
 
-7. Your skill should now be successfully setup and you can use it. Launch the skill by saying `\"Alexa launch captain seven\"`. The first time you launch it the skill needs to reach out to auth0 to get your keptn details, this is done automatically by saying `configure` but don't worry the skill will talk you through that.
+7. Your skill should now be successfully setup and you can use it. Launch the skill by saying `"Alexa launch captain seven"`. The first time you launch it the skill needs to reach out to auth0 to get your keptn details, this is done automatically by saying `configure` but don't worry the skill will talk you through that.
 
 ![](./images/setup/done.PNG)
 
 ## Supported Commands
 
-The skill currently supports the following commands. Once you have the skill enabled and configured you can trigger these by saying `Alexa, ask captain seven \<command\>` so for example to learn about keptn you could say `\"Alexa ask captain seven describe\"`
+The skill currently supports the following commands. Once you have the skill enabled and configured you can trigger these by saying `Alexa, ask captain seven <command>` so for example to learn about keptn you could say `"Alexa ask captain seven describe"`
 
 | Command | Supported variations | Purpose | Notes |
 | ------- | -------------------- | ------- | ----- |
 | Describe | Describe, Describe keptn, Describe captain, What is captain & What is keptn | Give an overview of what keptn is | The describe command can be run without account linking. It is non interactive and no additional information needs to be supplied |
 | Projects | Project, Projects, Project details, List my projects & What are my projects | List the number of projects and their names | The projects command requires account linking. If you have not enabled account linking it will inform you of this. It is non interactive and no additional information needs to be supplied |
-| Launch | Launch captain seven or captain seven | This is a default command which is triggered when you launch the skill. | The launch command doesn't require account linking but it will give different output depending on if it is enabled or not and if you have already called configure or not. This is an interactive command and at the end will reprompt the user for a further command. As the skil is already active you do not need the skill invocation name for the follow up, you can simly say any command such as `\"Describe\"` |
-| Deploy | Deploy, Deploy version \{version\} to \{service\} or Deploy \{service\} version \{version\} | Deploy a new version | The Deploy command requires account linking. If you have not enabled account linking it will inform you of this. This is an interactive command as you need to specify the service name and version you want to deploy. For example `\"Deploy carts version 2\"`. Please note this command only supports carts and simplenode. The project and service names are also hard coded so for carts it must be sockshop, carts and for Andi's simple node it must be keptnsample and simplenode. |
+| Launch | Launch captain seven or captain seven | This is a default command which is triggered when you launch the skill. | The launch command doesn't require account linking but it will give different output depending on if it is enabled or not and if you have already called configure or not. This is an interactive command and at the end will reprompt the user for a further command. As the skil is already active you do not need the skill invocation name for the follow up, you can simly say any command such as `"Describe"` |
+| Deploy | Deploy, Deploy version \{version\} to \{service\} or Deploy \{service\} version \{version\} | Deploy a new version | The Deploy command requires account linking. If you have not enabled account linking it will inform you of this. This is an interactive command as you need to specify the service name and version you want to deploy. For example `"Deploy carts version 2"`. Please note this command only supports carts and simplenode. The project and service names are also hard coded so for carts it must be sockshop, carts and for Andi's simple node it must be keptnsample and simplenode. |
 
 ## Known Limitations
 1. No connection to the keptn alexa notification service
