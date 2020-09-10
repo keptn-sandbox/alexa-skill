@@ -25,7 +25,7 @@ Once you are invited to the beta you will recieve an email form Amazon with a li
 Once you have done this you need to enable the skill and configure accoutn linking.
 1. Open the alexa app and navigate to More > Skills & Games > Your Skills > Dev
 
-![](./images/setup/dev.png)
+![](./images/setup/dev.PNG)
 
 2. Select the Keptn skill and click `ENABLE TO USE`
 
