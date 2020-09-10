@@ -25,15 +25,15 @@ Once you are invited to the beta you will recieve an email form Amazon with a li
 Once you have done this you need to enable the skill and configure accoutn linking.
 1. Open the alexa app and navigate to More > Skills & Games > Your Skills > Dev
 
-![](./images/setup/dev.PNG)
+![](./images/setup/dev.PNG | width=100)
 
 2. Select the Keptn skill and click `ENABLE TO USE`
 
-![](./images/setup/enable.PNG)
+![](./images/setup/enable.PNG | width=200)
 
 3. To access your keptn credentials the skill requires account linking to Auth0, during the account linking you will provide your keptn endpoint and token. Click on `SETTINGS`
 
-![](./images/setup/settings.PNG)
+![](./images/setup/settings.PNG | width=300)
 
 4. Click on `Link Account`
 
