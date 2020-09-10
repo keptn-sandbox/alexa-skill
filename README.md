@@ -16,7 +16,7 @@ This skill is designed to demo the keptn. I designed this as a fun way to demo k
 
 Check out this example of the skill in action
 
-![](./video/keptn070.MP4)
+![](./videos/keptn070.MP4)
 
 ## Skill Setup
 I am currently running a beta test for the skill so it is not pubilcally available. If you would join the beta test please reach out to me on the keptn slack workspace.
@@ -33,7 +33,7 @@ Once you have done this you need to enable the skill and configure accoutn linki
 
 3. To access your keptn credentials the skill requires account linking to Auth0, during the account linking you will provide your keptn endpoint and token. Click on `SETTINGS`
 
-![](./images/setup/enable.png)
+![](./images/setup/settings.png)
 
 4. Click on `Link Account`
 
@@ -50,6 +50,8 @@ Once you have done this you need to enable the skill and configure accoutn linki
 Authorize the App by clicking on `Accept`
 
 7. Your skill should now be successfully setup and you can use it. Launch the skill by saying `\"Alexa launch captain seven\"`. The first time you launch it the skill needs to reach out to auth0 to get your keptn details, this is done automatically by saying `configure` but don't worry the skill will talk you through that.
+
+![](./images/setup/done.png)
 
 ## Supported Commands
 
