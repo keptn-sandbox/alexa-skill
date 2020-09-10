@@ -16,7 +16,7 @@ This skill is designed to demo the keptn. I designed this as a fun way to demo k
 
 Check out this example of the skill in action
 
-![](./videos/keptn070.MP4)
+![](./videos/keptn070.mp4)
 
 ## Skill Setup
 I am currently running a beta test for the skill so it is not pubilcally available. If you would join the beta test please reach out to me on the keptn slack workspace.
