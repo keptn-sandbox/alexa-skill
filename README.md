@@ -41,7 +41,7 @@ Once you have done this you need to enable the skill and configure accoutn linki
 
 ![](./images/setup/signup.PNG)
 
-6. Input your email address \(this can be any address and doesn't have to be the same one as you alexa account\), a password, your keptn endpoint \(without http\(s\):\/\/ and training \/\) and your decoded keptn API token.
+6. Input your email address \(this can be any address and doesn't have to be the same one as you alexa account\), a password, your keptn endpoint \(without http\(s\):\/\/ and training \/\) and your decoded keptn API token. Do not use the sign up with google option.
 
 ![](./images/setup/details.PNG)
 
