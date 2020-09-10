@@ -14,9 +14,7 @@ This Alexa skill is can be used to demo keptn.
 ## Skill Overview
 This skill is designed to demo the keptn. I designed this as a fun way to demo keptn and to show that keptn is API controllable. If you can trigger it with a voice command then you can integrate it with any piece of software that supports API calls. This is really only designed for demos and not prouction usecases. The skill invocation name is captain seven. This is beacuse it is required to have 2 or more words and it sometimes struggled with keptn.
 
-Check out this example of the skill in action
-
-![](./videos/keptn070.mp4)
+Check out this [example](./videos/keptn070.mp4) of the skill in action.
 
 ## Skill Setup
 I am currently running a beta test for the skill so it is not pubilcally available. If you would join the beta test please reach out to me on the keptn slack workspace.
