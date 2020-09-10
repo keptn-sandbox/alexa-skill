@@ -1,5 +1,5 @@
 # alexa-skill
-<img src="https://github.com/keptn/keptn/raw/master/assets/keptn.PNG" />
+<img src="https://github.com/keptn/keptn/raw/master/assets/keptn.png" />
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/keptn-sandbox/alexa-notification-service)
 [![Build Status](https://travis-ci.org/keptn-sandbox/alexa-notification-service.svg?branch=master)](https://travis-ci.org/keptn-sandbox/alexa-notification-service)
