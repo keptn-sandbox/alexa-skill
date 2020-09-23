@@ -53,7 +53,7 @@ Authorize the App by clicking on `Accept`
 
 ## Supported Commands
 
-The skill currently supports the following commands. Once you have the skill enabled and configured you can trigger these by saying `Alexa, ask captain seven <command>` so for example to learn about keptn you could say `"Alexa ask captain seven describe"`
+The skill currently supports the following commands. Once you have the skill enabled and configured you can trigger these by saying `Alexa, ask captain seven to <command>` so for example to learn about keptn you could say `"Alexa ask captain seven to describe"`
 
 | Command | Supported variations | Purpose | Notes |
 | ------- | -------------------- | ------- | ----- |
