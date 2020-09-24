@@ -30,7 +30,7 @@ The Alexa skillis compatable with these versions of Keptn.
 
 # Maintainer
 
-[Alasdair Patton](https://github.com/alipatton10) - contact Keptn Slack Channel or @ Alasdair.Patton@dynatrace
+[Alasdair Patton](https://github.com/alipatton10) - contact [Keptn Slack Channel](https://github.com/keptn/community) or @ Alasdair.Patton@dynatrace
 
 # Supported Commands
 
@@ -41,7 +41,7 @@ The skill currently supports the following commands. Once you have the skill ena
 | Launch | This is a default command which is triggered when you launch the skill. | >`Launch captain seven` >`captain seven` |  The launch command doesn't require account linking but it will give different output depending on if it is enabled or not and if you have already called configure or not. This is an interactive command and at the end will reprompt the user for a further command. As the skill is already active you do not need the skill invocation name for the follow up, you can simply say any command such as `Describe` |
 | Describe | Give an overview of what keptn is | >`Describe` >`Describe captain` >`What is captain` | The describe command can be run without account linking. It is non interactive and no additional information needs to be supplied |
 | Projects | List the number of projects and their names | >`Project` >`Projects` >`Project details` >`List my projects` >`What are my projects` | The projects command requires account linking. If you have not enabled account linking it will inform you of this. It is non interactive and no additional information needs to be supplied |
-| Deploy | Deploy a new version | >`Deploy` >`Deploy version {version} to {service}` or >`Deploy {service} version \{version\}` | The Deploy command requires account linking. If you have not enabled account linking it will inform you of this. This is an interactive command as you need to specify the service name and version you want to deploy. For example `Deploy carts version 2`. Please note this command only supports carts and simplenode. The project and service names are also hard coded so for carts it must be sockshop, carts and for simple node it must be keptnsample and simplenode. |
+| Deploy | Deploy a new version | >`Deploy` >`Deploy version {version} to {service}` or >`Deploy {service} version {version}` | The Deploy command requires account linking. If you have not enabled account linking it will inform you of this. This is an interactive command as you need to specify the service name and version you want to deploy. For example `Deploy carts version 2`. Please note this command only supports carts and simplenode. The project and service names are also hard coded so for carts it must be sockshop, carts and for simple node it must be keptnsample and simplenode. |
 
 # Skill setup
 
@@ -71,11 +71,13 @@ Refer to the diagram below of the setup process.
 
     ![](./images/setup/link.PNG)
 
-7. This will launch the connection to the keptn auth0 account which is where your keptn details will be stored. You need to sign up for this so click on `Sign Up` or enter an email and password to use.
+7. This will launch the connection to the keptn auth0 account which is where your keptn details will be stored. You need to sign up for this so click on `Sign Up` then enter an email and password to use. 
+
+    **DO NOT use the sign up with google option.**
 
     ![](./images/setup/signup.PNG)
 
-8. Input your email address \(this can be any address and doesn't have to be the same one as you Alexa account\), a password, your keptn endpoint \(without http\(s\):\/\/ and training \/\) and your decoded keptn API token. Do not use the sign up with google option.
+8. Input your email address \(this can be any address and doesn't have to be the same one as you Alexa account\), a password, your [Keptn API endpoint](https://keptn.sh/docs/0.7.x/reference/api/) \(without http\(s\):\/\/ and trailing \/\) and your [decoded keptn API token](https://keptn.sh/docs/0.7.x/operate/api_token/#retrieve-api-token). 
 
     ![](./images/setup/details.PNG)
 
