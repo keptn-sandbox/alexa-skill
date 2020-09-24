@@ -83,6 +83,6 @@ Refer to the diagram below of the setup process.
 
     Authorize the App by clicking on `Accept`
 
-8. Your skill should now be successfully setup and you can use it. Launch the skill by saying `"Alexa launch captain seven"`. The first time you launch it the skill needs to reach out to auth0 to get your keptn details, this is done automatically by saying `configure` but don't worry the skill will talk you through that.
+9. Your skill should now be successfully setup and you can use it. Launch the skill by saying `"Alexa launch captain seven"`. The first time you launch it the skill needs to reach out to auth0 to get your keptn details, this is done automatically by saying `configure` but don't worry the skill will talk you through that.
 
     ![](./images/setup/done.PNG)
