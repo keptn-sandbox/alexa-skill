@@ -1,12 +1,9 @@
 # Overview
 
-The Keptn Alexa skill is designed to demonstrate in a fun way the integration to the [Keptn API](https://keptn.sh/docs/0.7.x/reference/api/).
+Using an Alexa device or Alexa app on your phone, you can invoke Keptn with a voice command. The Keptn Alexa skill is designed to demonstrate in a fun way the integration to the [Keptn API](https://keptn.sh/docs/0.7.x/reference/api/).
 
-Using an Alexa device or Alexa app on your phone, you can invoke Keptn with a voice command as shown in the diagram below.
-
-![](./images/operate-flow.png)
-
-Check out this [MP4 video found in this repo](./videos/keptn070.mp4) to watch the skill in action.
+Check out this [YouTube video](https://youtu.be/gR3zAaInvDA) to watch the skill in action.
+![](./images/youtube.png)
 
 # Known Limitations
 1. Project and service names are hardcoded, so the skill currently supports these deployments:
