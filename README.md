@@ -9,7 +9,9 @@ Using an Alexa device or Alexa app on your phone, you can invoke Keptn with a vo
 Check out this [MP4 video found in this repo](./videos/keptn070.mp4) to watch the skill in action.
 
 # Known Limitations
-1. Project and service names are hard coded so only supports carts and simple node provided the project names are sockshop and keptnsample respectively.
+1. Project and service names are hardcoded, so the skill currently supports these deployments:
+    * If `deploy carts` is asked to the Alexa skill, then a keptn `new-artifact` event is sent for project: `sockshop` and service: `carts`.  Supported versions are: `1`,`2`,`3`,`4`. 
+    * If `deploy simplenode` is asked to the Alexa skill, then a keptn `new-artifact` event is sent for project:`keptnsample` and service: `simplenodeservice`.  Supported versions are: `1`,`2`,`3`,`4`
 1. [Auth0](https://auth0.com) is used to store your Keptn credentials. You will be prompted to register your email with Auth0 as part of the installation. The Auth0 account is also managed by the [skill maintainer](#Maintainer) so you will need to contact him to adjust your Keptn settings if there is problems.
 1. No connection to the [Keptn Alexa notification service](https://github.com/keptn-sandbox/alexa-notification-service)
 
